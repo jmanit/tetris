@@ -1,0 +1,83 @@
+* {
+  font-family: 'arial', cursive;
+}
+body{
+  background-image: url(videogamecontroller_background.webp);
+}
+.grid {
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.left-column {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid white ;
+  font-size: 20px;
+  text-align: left;
+  color: white;
+}
+
+.next{
+  border: 1px solid white;
+  background-color: black;
+  
+}
+
+.right-column{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 0;
+  color: white;
+  margin-left: 60%;
+}
+
+h1{
+  font-size: 50px;
+  margin-top: 0;
+}
+
+p{
+  font-size: 30px;
+}
+.game-board {
+  border: solid 2px white;
+  text-align: center;
+  margin-left: 30%;
+  
+}
+
+  button{
+    width: 300px;
+    margin-left: 60%;
+    border: white;
+    border-radius: 5rem;
+  }
+
+.play-button {
+  background-color: black;
+  font-size: 16px;
+  padding: 15px 30px;
+  cursor: pointer;
+  border: 1px solid blue;
+  color: white;
+}
+
+#pause-btn {
+  display: none;
+  background-color: black;
+  border: 1px solid greenyellow;
+  color: white;
+}
+
+#sound-speaker{
+  font-size:30px;
+}
+
+.sound-item{
+  cursor:pointer;
+}
